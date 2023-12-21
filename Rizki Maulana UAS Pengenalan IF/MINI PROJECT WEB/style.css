@@ -1,0 +1,258 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.wrapper {
+    width: 1024;
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+}
+
+nav {
+    background-color: #222831;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav>.wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu>ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 20px 0px 0px;
+    justify-content: space-between;
+}
+
+.menu>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo>img {
+    height: 45px;
+    padding: 0px 0px 0px 20px;
+}
+
+header {
+    background: url(Image/Background.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 4px #000;
+}
+
+.header-opacity {
+    background-color: #222831;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.headerteks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headerteks>h4 {
+    color: #fb0;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.headerteks>h5 {
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    font-size: 4rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.headerteks>p {
+    padding: 5px;
+    margin: 0;
+    color: #fff;
+}
+
+#tentangsaya {
+    background-color: #EEEEEE;
+    color: #000000;
+}
+
+#tentangsaya>.wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#tentangsaya>.wrapper>h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#tentangsaya>.wrapper>div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tentangsaya>.wrapper>div>.foto {
+    width: 30%;
+}
+
+#tentangsaya>.wrapper>div>.foto>img {
+    max-width: 100%;
+}
+
+#tentangsaya>.wrapper>div>.deskripsi {
+    width: 70%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#aplication {
+    background-color: #393e46;
+    color: #fff;
+}
+
+#aplication>.wrapper {
+    padding: 50px 0px 50px 0px;
+}
+
+#aplication>.wrapper>h4 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#aplication>.wrapper>h4>span {
+    color: #fb0;
+}
+
+#aplication>.wrapper>div {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aplication>.wrapper>div>.foto1 {
+    width: 33%;
+    padding: 0px 5px 0px 5px;
+}
+
+#aplication>.wrapper>div>.foto1>img {
+    max-width: 100%;
+}
+
+#aplication>.wrapper>div>.foto2 {
+    width: 30%;
+    padding: 0px 5px 0px 5px;
+}
+
+#aplication>.wrapper>div>.foto2>img {
+    max-width: 100%;
+}
+
+#aplication>.wrapper>div>.foto3 {
+    width: 32%;
+    padding: 0px 5px 0px 5px;
+}
+
+#aplication>.wrapper>div>.foto3>img {
+    max-width: 100%;
+}
+
+#aplication>.wrapper>div>.foto4 {
+    width: 30%;
+    padding: 0px 5px 0px 5px;
+}
+
+#aplication>.wrapper>div>.foto4>img {
+    max-width: 100%;
+}
+
+#aplication>.wrapper>div>.foto5 {
+    width: 30%;
+    padding: 0px 5px 0px 5px;
+}
+
+#aplication>.wrapper>div>.foto5>img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #222831;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .wrapper {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+        width: 60%;
+    }
+
+    .headerteks>h4 {
+        font-size: 1.5rem;
+    }
+
+    .headerteks>h5 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+
+    .headerteks>p {
+        font-size: 0.8rem;
+    }
+}
